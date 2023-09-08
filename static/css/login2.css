@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+.logo{
+border-radius: 28px;
+
+}
+.bad {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #a22;
+	color: #fff
+}
+.borde{
+    border-radius: 5%;
+border-color: chartreuse;
+
+}
+.blanco{
+    color: rgb(255, 255, 255);
+    font-family: 'Courgette', cursive;
+    font-size: 17px;
+}
+body{
+    background: rgba(64, 58, 62, 0.757);  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgba(190, 88, 105, 0.436), rgba(13, 13, 13, 0.596)),url(../IMG/foto.jpg);;  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(190, 88, 105, 0.292), rgba(4, 4, 4, 0.686)),url(../IMG/foto.jpg);; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.cnape{
+    position: absolute;
+    margin-left: 3%;
+    margin-top: 10%;
+}
+.imagen2{
+    position: absolute;
+   margin-left: 70%;
+    margin-top: 2%;
+}
+.imagen3{
+    position: absolute;
+   margin-left: 7%;
+    margin-top: 2%;
+}
+.verde{
+color: rgb(194, 243, 201);
+}
+.enca{
+    display: inline;
+    
+}
+.barra{
+    background:rgba(0, 0, 0, 0.5);
+    position: relative;
+    float: flex;
+    margin-right: 20px;
+
+}
+.titulo{
+    padding: 10px;
+    margin-left: 20px;
+    font-family: 'Courgette', cursive;
+    color: white;
+    font-size: 35px;
+    position: absolute;
+}
+nav, .as{
+    color: white;
+    text-decoration: none;
+    float:right;
+    padding: 8px;
+    font-family: 'Courgette', cursive;
+    font-size: 25px;
+
+}
+.amarillo{
+    color: yellow;
+}
+@media(min-width:360px){
+    .titulo{
+    padding: 2px;
+    margin-left: 10px;
+    font-family: 'Courgette', cursive;
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    }
+}
+    @media(max-width: 740px) and (min-width: 360px){
+    .cnape{
+        display: none;
+        position: absolute;
+        margin-left: 0%;
+        margin-top: 10%;
+    }
+    .imagen2{
+        display: none;
+       margin-left: 8%;
+        margin-top: 180%;
+    }
+   
+}
+@media(max-width: 1080px) and (min-width: 760px){
+    .cnape{
+        display: none;
+        position: absolute;
+        margin-left: 0%;
+        margin-top: 10%;
+    }
+    .imagen2{
+        display: none;
+       margin-left: 8%;
+        margin-top: 180%;
+    }
+   
+}
+@media(max-width: 1280px) and (min-width: 800px){
+    .cnape{
+        display: none;
+        position: absolute;
+        font-size: 30px;
+        margin-top: 10%;
+    }
+    .imagen2{
+        display: none;
+        position: absolute;
+       margin-left: 66%;
+        margin-top: 2%;
+    }
+   
+}
+@media(max-width: 1390px) and (min-width: 800px){
+    .cnape{
+        
+        position: absolute;
+        margin-left: 0%;
+        margin-top: 10%;
+    }
+    .imagen2{
+        width: 420px;
+        position: absolute;
+       margin-left: 68%;
+        margin-top: 2%;
+    }
+    .logo{
+        margin-left: 3%;
+        border-radius: 28px;
+        width: 60%;
+        
+        }
+}

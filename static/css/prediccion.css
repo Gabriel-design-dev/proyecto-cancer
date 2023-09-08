@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+.caja-margen{
+margin-top:20px;
+margin-left: 5%;
+margin-right: 5%;
+background-color: rgb(235, 235, 235);
+}
+.caja-elementos{
+    width: 55%;
+  
+    margin-left: 27%;
+}
+.caja-elementos-sitio{
+  
+    width: 55%;
+  
+    margin-left: 27%;
+}
+.caja-margen-sitio{
+  
+    background: rgba(96, 44, 130, 0.582);  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgba(5, 58, 56, 0.603), rgba(5, 28, 61, 0.568)),url(../IMG/portada-prediccion.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(4, 56, 54, 0.603), rgba(97, 20, 148, 0.548)),url(../IMG/portada-prediccion.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.margen-tabla{
+margin-top:20px;
+margin-left: 5%;
+margin-right: 5%;
+background-color: rgb(255, 255, 255);
+}
+.caja-tabla{
+    margin-top: 20px;
+margin: 20px;
+}
+.caja-imagen{
+    margin-bottom: 20px;
+    margin-left: 25%;
+}
+.caja-margen-left{
+    float: left;
+    width: 40%;
+    margin-top: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgb(235, 235, 235);
+    }
+.caja-elementos-left{
+    width: 90%;
+    margin: 20px;
+    margin-left: 27px;
+}
+.caja-margen-rig{
+    float: right;
+    width: 45%;
+    margin-top: 40px;
+    margin-right: 5%;
+    background-color: rgb(235, 235, 235);
+    }
+.caja-elementos-rig{
+    width: 90%;
+    
+    margin: 20px;
+    margin-left: 27px;
+}
+.tamaño{
+    border-radius: 20px;
+    height: 50px;
+    width: 100px;
+
+}
+.botonsito{
+    color: chartreuse;
+    text-align: center;
+}
+.bot{
+    height: 50px;
+    color: black;
+background-color: greenyellow;
+}
+.titulos{
+    font-weight: bold;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Prompt', sans-serif;
+}
+.titulos-prediccion{
+    border-color: black;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Alkatra', cursive;
+}
+.letrita{
+    color: rgb(92, 111, 129);
+}
+.mens{
+    font-family: 'Concert One', cursive;
+    font-size: 40px;
+}
+.analisis{
+    font-family: 'Concert One', cursive;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 671px) {
+    .titulos-prediccion{
+        margin-top: -60px;
+        border-color: black;
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        font-family: 'Alkatra', cursive;
+    }
+    .caja-elementos-sitio{
+        
+        width: 100%;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    .caja-margen-sitio{
+      
+        background: rgba(8, 3, 12, 0.582);  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, rgba(2, 17, 17, 0.603), rgba(3, 13, 27, 0.568)),url(../IMG/portada-prediccion.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, rgba(3, 27, 26, 0.603), rgba(50, 6, 80, 0.548)),url(../IMG/portada-prediccion.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+    }
+  }

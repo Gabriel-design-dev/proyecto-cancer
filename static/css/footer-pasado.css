@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+/*:::::Pie de Pagina*/
+.pie-pagina{
+    width: 100%;
+    background-color: #0a141d;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+.pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+
+@media  (max-width: 1199.98px) {}
+
+@media (max-width: 991.98px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 600px) {
+    
+/*:::::Pie de Pagina*/
+.pie-pagina{
+    width: 100%;
+    background-color: #0a141d;
+   
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    
+    margin-left: -100px;
+    max-width: 100%;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:1px;
+    padding: 0px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    margin-top: 9px;
+    color: yellow;
+    margin-bottom: 15px;
+    font-size: 14px;
+    margin-left: -20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: white;
+    margin-bottom: -8px;
+    font-size: 10px;
+    margin-left: -100px;
+    margin-right: -100px;
+}
+
+.pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    text-align: center;
+    color: #fff;
+    margin-bottom: -1%;
+    margin-top: -15px;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 12px;
+}
+.imga{
+    margin-top: 0px;
+    margin-left: -700px;
+}
+    }
+@media only screen and (min-width:360px) and (max-width:757px){
+    .pie-pagina .grupo-2{
+        background-color: #f8f8f8;
+        text-align: center;
+        color: #fff;
+        margin-bottom: -1%;
+        margin-top: -15px;
+    }     
+    }

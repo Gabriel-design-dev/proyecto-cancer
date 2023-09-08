@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap');
+
+
+  #message {
+    display:none;
+    background-color:transparent;
+    color: #fff;
+    position: relative;
+    padding: 10px 0;
+    margin-top: 4px;
+  }
+  
+  #message p {
+
+    font-size: 16px;
+  }
+  
+  .valid {
+    color: #108501;
+  }
+  
+  .valid:before {
+    position: relative;
+    left: 0;
+    content: "✔  ";
+  }
+  
+  .invalid {
+    color: rgb(206, 1, 1);
+  }
+  
+  .invalid:before {
+    position: relative;
+    left: 0;
+    content: "✖  ";
+  }

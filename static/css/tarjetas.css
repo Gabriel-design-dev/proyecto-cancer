@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap");
+.fondo {
+  display: flex;
+  margin: 0;
+    padding: 0;
+  min-height: 100vh;
+  background-color: #333;
+  background-image: linear-gradient(
+    135deg,
+    #a1286836 0%,
+    #2d6c8534 46%,
+    #745d3f1e 100%
+  );
+
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.containero {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+  margin-left: 10%;
+  
+}
+.containero .carde {
+  position: relative;
+}
+.containero .carde .face {
+  width: 300px;
+  height: 200px;
+  transition: 0.4s;
+}
+.containero .carde .face.front {
+  position: relative;
+  /*background: #333;*/
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  
+  transform: translateY(0);
+  box-shadow: inset 0 0 60px whitesmoke, inset 20px 0 80px rgb(148, 48, 148),
+  inset -20px 0 80px rgba(0, 255, 255, 0.541), inset 20px 0 300px rgba(255, 0, 255, 0.452), inset -20px 0 300px #0ff,
+  0 0 50px hsla(0, 0%, 100%, 0.404), -10px 0 80px rgba(255, 0, 255, 0.507), 10px 0 80px rgba(0, 255, 255, 0.582);
+}
+
+.containero .carde:nth-child(2) .face.front {
+  box-shadow: inset 0 0 60px whitesmoke, inset 20px 0 80px hwb(49 0% 0% / 0.651),
+    inset -20px 0 80px rgba(255, 196, 0, 0.541), inset 20px 0 300px rgb(255, 182, 46),
+    inset -20px 0 300px rgb(255, 153, 0), 0 0 50px rgba(0, 152, 190, 0.514),
+    -10px 0 80px rgb(255, 174, 0), 10px 0 80px rgba(0, 162, 255, 0.596);
+}
+.containero .carde:nth-child(3) .face.front {
+  box-shadow: inset 0 0 60px rgba(245, 245, 245, 0.658), inset 20px 0 80px rgba(63, 41, 16, 0.555),
+    inset -20px 0 80px rgba(26, 11, 2, 0.541), inset 20px 0 300px rgb(24, 19, 5),
+    inset -20px 0 300px rgba(53, 27, 13, 0.548), 0 0 50px rgba(255, 202, 127, 0.548),
+    -10px 0 80px rgba(70, 45, 8, 0.548), 10px 0 80px rgba(51, 40, 32, 0.568);
+}
+.containero .carde .face.front .contentq {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  
+  transition: 1;
+  text-align: center;
+}
+.containero .carde:hover .face.front .contentq {
+  opacity: 1;
+}
+.containero .carde .face.front .contentq img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.containero .carde .face.front .contentq i {
+  font-size: 3em;
+  color: white;
+  display: inline-block;
+}
+.containero .carde .face.front .contentq h3 {
+  font-size: 1em;
+  color: white;
+  text-align: center;
+}
+.containero .carde .face.front .contentq a {
+  transition: 0.5s;
+}
+.containero .carde .face.back {
+  position: relative;
+  background-color: #ffffff;
+  background-image: linear-gradient(160deg, #ffffff 0%, #ffdeff 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  
+}
+.containero .carde:hover .face.back {
+  transform: translateY(0);
+}
+.containero .carde .face.back .contentq p,
+.ba {
+  font-size: 13px;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+.containero .carde .face.back .contentq button {
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 10px;
+  margin: 15px 0 0;
+  transition: all 0.3s;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #333;
+  border-radius: 6px;
+}
+.containero .carde .face.back .contentq button:hover {
+  letter-spacing: 1px;
+}
+.sobre-imagen{
+    background: black;
+    position: relative;
+    margin-top: -25px;
+    
+}
